@@ -115,7 +115,6 @@ ul {
   background-size: 24px;
   background-position: center bottom;
   background-image: url(https://www.bekseju.com/images/ico-arrow-d.svg);
-
   position: absolute;
   bottom: 3vh;
   left: 50%;
@@ -123,9 +122,38 @@ ul {
   padding-bottom: 20px;
 }
 .section2 {
-  margin: 100vh 0;
-  position: relative;
   z-index: 2;
-  background: white;
-  height: 100vh;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.section2main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.sec2img {
+  overflow: hidden;
+  background: yellowgreen;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+}
+.sec2img img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.p {
+  left: calc(33.3333% - 4px);
+  top: 0;
+  position: absolute;
+  width: 8px;
+  height: 100%;
+  background-image: url(https://www.bekseju.com/images/p.png);
+  z-index: 5;
 }
