@@ -115,11 +115,20 @@
 }
 .video {
   z-index: 9999;
-  min-height: 480px;
   left: 0;
   top: 180vh !important;
   position: absolute;
   width: 50% !important;
+}
+.videodiv {
+  background: wheat;
+  min-height: 480px;
+}
+.op {
+  opacity: 0;
+}
+.this {
+  padding-top: 2vh;
 }
 .mainimg2 {
   top: 60vh;
